@@ -38,7 +38,6 @@ self.addEventListener('activate', function(e){
 // on fetch state
 self.addEventListener('fetch', function(e){
     const requestUrl = new URL(e.request.url);
-    console.log(requestUrl);
     e.respondWith(
         caches.match(e.request).then(function(response) {
             return response || fetch(e.request);
