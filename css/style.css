@@ -1,0 +1,132 @@
+body,figure{margin:0}
+.brand-logo{
+    color: white !important;
+    text-decoration: none;
+}
+.primary-color{
+    background-color: #9c27b0 !important;
+}
+.toastr{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: none;
+    line-height: 1.5em;
+    word-break: break-all;
+    background-color: #323232;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #fff;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    cursor: default;
+}
+.refresh-button{
+    margin-left: 1em;
+}
+.card .card-content {
+    padding: 24px;
+    border-radius: 0 0 2px 2px;
+}
+
+.card .card-content p {
+    margin: 0;
+    color: inherit;
+}
+
+.card .card-content .card-title {
+    display: block;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+.card .card-content .card-title i {
+    line-height: 32px;
+}
+
+
+.toast .toast-action {
+    color: #eeff41;
+    font-weight: 500;
+    margin-right: -25px;
+    margin-left: 3rem;
+}
+
+.dropdown-content {
+    background-color: #fff;
+    margin: 0;
+    display: none;
+    min-width: 100px;
+    max-height: 650px;
+    overflow-y: auto;
+    opacity: 0;
+    position: absolute;
+    z-index: 999;
+    will-change: width, height;
+}
+
+.dropdown-content li {
+    clear: both;
+    color: rgba(0, 0, 0, 0.87);
+    cursor: pointer;
+    min-height: 50px;
+    line-height: 1.5rem;
+    width: 100%;
+    text-align: left;
+    text-transform: none;
+}
+
+.dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected {
+    background-color: #eee;
+}
+
+.dropdown-content li.active.selected {
+    background-color: #e1e1e1;
+}
+
+.dropdown-content li.divider {
+    min-height: 0;
+    height: 1px;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+    font-size: 16px;
+    color: #26a69a;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+}
+
+.dropdown-content li > span > label {
+    top: 1px;
+    left: 0;
+    height: 18px;
+}
+
+.dropdown-content li > a > i {
+    height: inherit;
+    line-height: inherit;
+    float: left;
+    margin: 0 24px 0 0;
+    width: 24px;
+}
+
+.input-field.col .dropdown-content [type="checkbox"] + label {
+    top: 1px;
+    left: 0;
+    height: 18px;
+}
+.form-control{width:100%;height:36px;padding:6px 12px;background-color:#fff;border:1px solid #ccd0d2;border-radius:4px;box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}.form-control:focus{border-color:#98cbe8;outline:0;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(152,203,232,.6)}
+.right{
+    float: right !important;
+}
+.left{
+    float: left !important;
+}
